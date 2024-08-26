@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background color changer</title>
-    <script>
-        var bgcolor=new Array("#3E48E6","#3EE65A","#C5E72E","#E72E2E","#120202","#138D25");
-        document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)]
-    </script>
 </head>
 <body>
     <h4>Refresh to view different Background colour</h4>
+
+    <script>
+        var bgcolor = ["#3E48E6", "#3EE65A", "#C5E72E", "#E72E2E", "#120202", "#138D25"];
+        document.body.style.background = bgcolor[Math.floor(Math.random() * bgcolor.length)];
+    </script>
 </body>
 </html>
